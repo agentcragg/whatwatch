@@ -1,0 +1,185 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff;
+  color: #000;
+  line-height: 1.5;
+}
+
+.page {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem;
+  text-align: center;
+}
+
+/* Header */
+
+header {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 1.25;
+  margin-bottom: 0.4rem;
+}
+
+h1 a {
+  color: #000;
+  text-decoration: none;
+}
+
+h1 a:hover {
+  text-decoration: underline;
+}
+
+.tagline {
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
+}
+
+/* Film block */
+
+.film-block {
+  margin: 2rem 0;
+  min-height: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.prompt {
+  font-size: 1rem;
+  color: #333;
+}
+
+.film-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #000;
+}
+
+.film-year {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.film-award {
+  font-size: 0.85rem;
+  color: #555;
+  font-style: italic;
+}
+
+/* Buttons */
+
+.btn-main {
+  display: inline-block;
+  background: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.6rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.02em;
+  margin-top: 1rem;
+}
+
+.btn-main:hover {
+  background: #333;
+}
+
+.btn-skip {
+  display: inline-block;
+  background: none;
+  border: none;
+  color: #0000cc;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85rem;
+  cursor: pointer;
+  text-decoration: underline;
+  padding: 0;
+  margin-top: 0.5rem;
+}
+
+.btn-skip:hover {
+  color: #cc0000;
+}
+
+/* Divider */
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 1.5rem 0;
+}
+
+/* Share links */
+
+.share-links {
+  font-size: 0.78rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+  min-height: 1.2rem;
+}
+
+.share-links a {
+  color: #0000cc;
+  text-decoration: none;
+}
+
+.share-links a:hover {
+  text-decoration: underline;
+  color: #cc0000;
+}
+
+/* Footer */
+
+footer {
+  font-size: 0.75rem;
+  color: #888;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+footer a {
+  color: #888;
+}
+
+footer a:hover {
+  color: #000;
+}
+
+.credit {
+  color: #bbb;
+}
+
+/* Mobile */
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .film-title {
+    font-size: 1.75rem;
+  }
+}
