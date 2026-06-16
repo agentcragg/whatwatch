@@ -33,6 +33,7 @@ h1 {
   font-weight: bold;
   line-height: 1.25;
   margin-bottom: 0.4rem;
+  text-transform: uppercase;
 }
 
 h1 a {
@@ -44,13 +45,15 @@ h1 a:hover {
   text-decoration: underline;
 }
 
-.tagline {
-  font-size: 0.9rem;
+.serif-tag {
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 0.85rem;
   color: #555;
-  font-style: italic;
+  margin-top: 0.6rem;
+  line-height: 1.4;
 }
 
-/* Film block */
+
 
 .film-block {
   margin: 2rem 0;
@@ -62,114 +65,30 @@ h1 a:hover {
   gap: 0.3rem;
 }
 
-.prompt {
-  font-size: 1rem;
-  color: #333;
-}
-
 .film-title {
-  font-size: 2.2rem;
+  font-size: 3.2rem;
   font-weight: bold;
-  line-height: 1.2;
+  line-height: 1.1;
   color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: block;
 }
 
-.film-year {
-  font-size: 0.9rem;
-  color: #777;
+.film-title:hover {
+  text-decoration: underline;
 }
 
-.film-award {
-  font-size: 0.85rem;
-  color: #555;
-  font-style: italic;
-}
 
-/* Buttons */
-
-.btn-main {
-  display: inline-block;
-  background: #000;
-  color: #fff;
+/* Buttons */.btn-skip {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: bold;
-  padding: 0.6rem 1.5rem;
-  border: none;
-  cursor: pointer;
-  letter-spacing: 0.02em;
-  margin-top: 1rem;
-}
-
-.btn-main:hover {
-  background: #333;
-}
-
-.btn-skip {
-  display: inline-block;
-  background: none;
-  border: none;
-  color: #0000cc;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.85rem;
-  cursor: pointer;
-  text-decoration: underline;
-  padding: 0;
-  margin-top: 0.5rem;
-}
-
-.btn-skip:hover {
-  color: #cc0000;
-}
-
-/* Divider */
-
-hr {
-  border: none;
-  border-top: 1px solid #ccc;
-  margin: 1.5rem 0;
-}
-
-/* Share links */
-
-.share-links {
-  font-size: 0.78rem;
-  color: #555;
-  margin-bottom: 1.5rem;
-  min-height: 1.2rem;
-}
-
-.share-links a {
-  color: #0000cc;
-  text-decoration: none;
-}
-
-.share-links a:hover {
-  text-decoration: underline;
-  color: #cc0000;
-}
-
-/* Footer */
-
-footer {
-  font-size: 0.75rem;
-  color: #888;
-  margin-top: 1rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-}
-
-footer a {
-  color: #888;
-}
-
-footer a:hover {
   color: #000;
-}
-
-.credit {
-  color: #bbb;
+  cursor: pointer;
+  margin-top: 1rem;
+  text-decoration: none;
+  user-select: none;
 }
 
 /* Mobile */

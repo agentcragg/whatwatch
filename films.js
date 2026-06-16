@@ -10,7 +10,7 @@ const FILMS = [
   { title: "How to Have Sex", year: 2023, award: "Best British Independent Film" },
   { title: "All of Us Strangers", year: 2023, award: "Best British Independent Film" },
   { title: "The Zone of Interest", year: 2023, award: "Best British Independent Film" },
-  { title: "Rye Lane", year: 2023, award: "Best British Independent Film" },
+  { title: "Rye Lane" },
   { title: "Aftersun", year: 2022, award: "Best British Independent Film" },
   { title: "Boiling Point", year: 2021, award: "Best British Independent Film" },
   { title: "Limbo", year: 2020, award: "Best British Independent Film" },
